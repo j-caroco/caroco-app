@@ -1,0 +1,49 @@
+# Logs
+*.log
+report.*
+
+# Dependency directory
+node_modules
+.next
+.husky/**
+[C]harts/
+
+# Optional npm cache directory
+.npm
+
+# OS-specific temporary files
+.DS_Store
+Thumbs.db
+npm-debug.log
+
+# Coverage
+coverage
+
+# Others
+.idea
+.vscode
+*.code-workspace
+package-lock.json
+*.tgz
+
+# License list CSV
+license-list.csv
+
+# Distribuition folders
+**/dist
+
+# Environments file
+.env
+.env.*
+
+*.tsbuildinfo
+**.build_cache
+**vendor-manifest.json
+.npmrc
+!deployments/templates/npm/.npmrc
+
+# Ignore generated files
+*.crt*.Identifier
+
+#Json-server 
+db.json
